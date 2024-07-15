@@ -43,20 +43,20 @@ To train the model, you need to have your dataset in a CSV file format with `TEX
 ### Dataset
 The dataset used for training and testing the models consists of text data labeled as either "stressed" (1) or "non-stressed" (0). Make sure your dataset is in CSV format with the following columns:
 
-## TEXT DATA:
+#### TEXT DATA:
 The text data to be analyzed.
-## LABEL: 
+#### LABEL: 
 The label indicating stress (1 for stressed, 0 for non-stressed).
 
-### Model Architecture
-## Support Vector Machine (SVM)
+## Model Architecture
+### Support Vector Machine (SVM)
 Kernel: Linear
 Vectorizer: TF-IDF
-## Random Forest
+### Random Forest
 Number of Estimators: 100
 Random State: 42
 Vectorizer: TF-IDF
-## Naive Bayes
+### Naive Bayes
 Model: Multinomial Naive Bayes
 Vectorizer: CountVectorizer
 
